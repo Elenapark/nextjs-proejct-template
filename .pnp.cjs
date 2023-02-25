@@ -33,7 +33,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.11"],\
             ["eslint", "npm:8.34.0"],\
             ["eslint-config-next", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:13.2.1"],\
+            ["eslint-config-prettier", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:8.6.0"],\
             ["next", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:13.2.1"],\
+            ["prettier", "npm:2.8.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"]\
@@ -1096,6 +1098,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/typescript",\
             "eslint",\
             "typescript"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-config-prettier", [\
+        ["npm:8.6.0", {\
+          "packageLocation": "./.yarn/cache/eslint-config-prettier-npm-8.6.0-00192c9409-ff0d0dfc83.zip/node_modules/eslint-config-prettier/",\
+          "packageDependencies": [\
+            ["eslint-config-prettier", "npm:8.6.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:8.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-config-prettier-virtual-abc7ec9c08/0/cache/eslint-config-prettier-npm-8.6.0-00192c9409-ff0d0dfc83.zip/node_modules/eslint-config-prettier/",\
+          "packageDependencies": [\
+            ["eslint-config-prettier", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:8.6.0"],\
+            ["@types/eslint", null],\
+            ["eslint", "npm:8.34.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint",\
+            "eslint"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2420,7 +2444,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.11"],\
             ["eslint", "npm:8.34.0"],\
             ["eslint-config-next", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:13.2.1"],\
+            ["eslint-config-prettier", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:8.6.0"],\
             ["next", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:13.2.1"],\
+            ["prettier", "npm:2.8.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f409ecaaac9ff76cddd54b7822e63fe638803869b4adf6706048b58668c87f5fdf6c69de453715eb0d205ea951c847a3823ace392780810c325a80eb7edc06da#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"]\
@@ -2673,6 +2699,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prelude-ls-npm-1.2.1-3e4d272a55-cd192ec0d0.zip/node_modules/prelude-ls/",\
           "packageDependencies": [\
             ["prelude-ls", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prettier", [\
+        ["npm:2.8.4", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.4-ba64a351d1-c173064bf3.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.4"]\
           ],\
           "linkType": "HARD"\
         }]\
